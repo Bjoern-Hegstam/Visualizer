@@ -13,7 +13,6 @@ import java.awt.*;
 public class SpiralModel implements ColorModel {
     private double anglePerRadialUnit = 0.01;
     private double angleScale = 0;
-    private double originX;
 
     public double getAnglePerRadialUnit() {
         return anglePerRadialUnit;
@@ -31,34 +30,8 @@ public class SpiralModel implements ColorModel {
         this.angleScale = angleScale;
     }
 
-    public double getOriginX() {
-        return originX;
-    }
-
-    public void setOriginX(double originX) {
-        this.originX = originX;
-    }
-
-    public double getOriginY() {
-        return originY;
-    }
-
-    public void setOriginY(double originY) {
-        this.originY = originY;
-    }
-
-    private double originY;
-
-    public SpiralModel(double originX, double originY) {
-        this.originX = originX;
-        this.originY = originY;
-    }
-
     @Override
     public Color compute(double x, double y) {
-        x -= originX;
-        y -= originY;
-
         double angle = Math.atan2(-y, x);
         double radius = Math.sqrt(x * x + y * y);
 

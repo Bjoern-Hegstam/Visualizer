@@ -1,21 +1,30 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5efea769-b9a2-44e0-99b5-25d5829bea76" name="Default" comment="" />
+    <list default="true" id="5efea769-b9a2-44e0-99b5-25d5829bea76" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/org/github/visualizer/Rotation.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/org/github/visualizer/Translation.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/org/github/visualizer/SpiralModel.java" afterPath="$PROJECT_DIR$/src/org/github/visualizer/SpiralModel.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/org/github/visualizer/SpiralModelPanel.java" afterPath="$PROJECT_DIR$/src/org/github/visualizer/SpiralModelPanel.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/org/github/visualizer/Visualizer.java" afterPath="$PROJECT_DIR$/src/org/github/visualizer/Visualizer.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+    </list>
     <ignored path="Fractals.iws" />
     <ignored path=".idea/workspace.xml" />
     <file path="/Main.java" changelist="5efea769-b9a2-44e0-99b5-25d5829bea76" time="1371131965616" ignored="false" />
     <file path="/FractalViewer.java" changelist="5efea769-b9a2-44e0-99b5-25d5829bea76" time="1371139826051" ignored="false" />
     <file path="/FractalWorker.java" changelist="5efea769-b9a2-44e0-99b5-25d5829bea76" time="1371136377447" ignored="false" />
-    <file path="/fragment.java" changelist="5efea769-b9a2-44e0-99b5-25d5829bea76" time="1371138285461" ignored="false" />
+    <file path="/fragment.java" changelist="5efea769-b9a2-44e0-99b5-25d5829bea76" time="1371279402031" ignored="false" />
     <file path="/ImageWorker.java" changelist="5efea769-b9a2-44e0-99b5-25d5829bea76" time="1371135951106" ignored="false" />
     <file path="/ColorModel.java" changelist="5efea769-b9a2-44e0-99b5-25d5829bea76" time="1371136245585" ignored="false" />
     <file path="/SpiralModel.java" changelist="5efea769-b9a2-44e0-99b5-25d5829bea76" time="1371155079925" ignored="false" />
     <file path="/DistributedImageDrawer.java" changelist="5efea769-b9a2-44e0-99b5-25d5829bea76" time="1371138637627" ignored="false" />
-    <file path="/Visualizer.java" changelist="5efea769-b9a2-44e0-99b5-25d5829bea76" time="1371139533663" ignored="false" />
-    <file path="/SpiralModelPanel.java" changelist="5efea769-b9a2-44e0-99b5-25d5829bea76" time="1371138667848" ignored="false" />
+    <file path="/Visualizer.java" changelist="5efea769-b9a2-44e0-99b5-25d5829bea76" time="1371279647554" ignored="false" />
+    <file path="/SpiralModelPanel.java" changelist="5efea769-b9a2-44e0-99b5-25d5829bea76" time="1371280148774" ignored="false" />
     <file path="/a.dummy" changelist="5efea769-b9a2-44e0-99b5-25d5829bea76" time="1371140140502" ignored="false" />
-    <file path="/Dummy.txt" changelist="5efea769-b9a2-44e0-99b5-25d5829bea76" time="1371225443286" ignored="false" />
+    <file path="/Dummy.txt" changelist="5efea769-b9a2-44e0-99b5-25d5829bea76" time="1371280307298" ignored="false" />
+    <file path="/Translation.java" changelist="5efea769-b9a2-44e0-99b5-25d5829bea76" time="1371279585346" ignored="false" />
+    <file path="/Rotation.java" changelist="5efea769-b9a2-44e0-99b5-25d5829bea76" time="1371280014247" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -30,7 +39,6 @@
     <disable_hints />
   </component>
   <component name="DebuggerManager">
-    <ui_properties default_suspend_policy="SuspendAll" default_condition_enabled="true" />
     <breakpoint_any default_suspend_policy="SuspendAll" default_condition_enabled="true">
       <breakpoint>
         <option name="NOTIFY_CAUGHT" value="true" />
@@ -67,6 +75,7 @@
         <option name="LOG_MESSAGE" value="" />
       </breakpoint>
     </breakpoint_any>
+    <ui_properties default_suspend_policy="SuspendAll" default_condition_enabled="true" />
     <breakpoint_rules />
     <ui_properties />
   </component>
@@ -79,16 +88,29 @@
       <file leaf-file-name="Visualizer.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/org/github/visualizer/Visualizer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="62" column="101" selection-start="2297" selection-end="2297" vertical-scroll-proportion="0.0">
-              <folding />
+            <state line="5" column="40" selection-start="114" selection-end="114" vertical-scroll-proportion="0.0">
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="SpiralModelPanel.java" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="SpiralModelPanel.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/org/github/visualizer/SpiralModelPanel.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="30" column="0" selection-start="651" selection-end="651" vertical-scroll-proportion="0.0">
+            <state line="85" column="0" selection-start="2760" selection-end="2760" vertical-scroll-proportion="0.7671233">
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Rotation.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/org/github/visualizer/Rotation.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="16" column="4" selection-start="350" selection-end="350" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -121,10 +143,19 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="SpiralModel.java" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="Translation.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/org/github/visualizer/Translation.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="21" column="4" selection-start="440" selection-end="440" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SpiralModel.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/org/github/visualizer/SpiralModel.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="63" column="8" selection-start="1433" selection-end="1433" vertical-scroll-proportion="1.1872146">
+            <state line="30" column="5" selection-start="752" selection-end="752" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -161,6 +192,10 @@
         <option value="$PROJECT_DIR$/src/org/github/fractals/SpiralModel.java" />
         <option value="$PROJECT_DIR$/src/org/github/visualizer/DistributedImageDrawer.java" />
         <option value="$PROJECT_DIR$/src/org/github/visualizer/SpiralModel.java" />
+        <option value="$PROJECT_DIR$/src/org/github/visualizer/Visualizer.java" />
+        <option value="$PROJECT_DIR$/src/org/github/visualizer/Rotation.java" />
+        <option value="$PROJECT_DIR$/src/org/github/visualizer/Translation.java" />
+        <option value="$PROJECT_DIR$/src/org/github/visualizer/SpiralModelPanel.java" />
       </list>
     </option>
   </component>
@@ -196,7 +231,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
@@ -236,19 +270,20 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="project.structure.last.edited" value="Project" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth0" value="275" />
-    <property name="project.structure.proportion" value="0.15" />
-    <property name="OverrideImplement.combined" value="true" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth1" value="292" />
+    <property name="OverrideImplement.combined" value="true" />
+    <property name="project.structure.proportion" value="0.15" />
     <property name="options.splitter.main.proportions" value="0.3" />
-    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth0" value="296" />
-    <property name="MemberChooser.sorted" value="false" />
-    <property name="recentsLimit" value="5" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder1" value="1" />
+    <property name="recentsLimit" value="5" />
+    <property name="MemberChooser.sorted" value="false" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth0" value="296" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder0" value="0" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth2" value="299" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth3" value="971" />
@@ -262,16 +297,16 @@
     <property name="FullScreen" value="false" />
     <property name="GoToClass.includeLibraries" value="false" />
     <property name="options.splitter.details.proportions" value="0.2" />
-    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder0" value="0" />
     <property name="GoToFile.includeJavaFiles" value="false" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder0" value="0" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder3" value="3" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder1" value="1" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder2" value="2" />
     <property name="options.lastSelected" value="project.propVCSSupport.Mappings" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="MemberChooser.copyJavadoc" value="false" />
-    <property name="dynamic.classpath" value="false" />
     <property name="options.searchVisible" value="true" />
+    <property name="dynamic.classpath" value="false" />
   </component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
@@ -352,19 +387,41 @@
     </task>
     <servers />
   </component>
+  <component name="TodoView" selected-index="0">
+    <todo-panel id="selected-file">
+      <are-packages-shown value="false" />
+      <are-modules-shown value="false" />
+      <flatten-packages value="false" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <are-modules-shown value="false" />
+      <flatten-packages value="false" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="default-changelist">
+      <are-packages-shown value="false" />
+      <are-modules-shown value="false" />
+      <flatten-packages value="false" />
+      <is-autoscroll-to-source value="false" />
+    </todo-panel>
+  </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1176" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32973504" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3994112" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Version Control" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32973504" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32973504" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32973504" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32973504" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -373,8 +430,6 @@
       <window_info id="Documentation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="FLOATING" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" x="92" y="92" width="1736" height="976" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32973504" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
@@ -421,7 +476,7 @@
     <option name="WRAP_WHEN_TYPING_REACHES_RIGHT_MARGIN" value="false" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" />
+    <option name="LAST_COMMIT_MESSAGE" value="Extracted translation to decorator class. Added support for rotation" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="false" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
@@ -435,6 +490,7 @@
     <option name="UPDATE_FILTER_BY_SCOPE" value="false" />
     <option name="SHOW_FILE_HISTORY_AS_TREE" value="false" />
     <option name="FILE_HISTORY_SPLITTER_PROPORTION" value="0.6" />
+    <MESSAGE value="Extracted translation to decorator class. Added support for rotation" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -444,20 +500,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/org/github/visualizer/ImageWorker.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="32" column="77" selection-start="1048" selection-end="1048" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/org/github/visualizer/ColorModel.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="45" selection-start="322" selection-end="322" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/org/github/visualizer/SpiralModel.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="63" column="8" selection-start="1433" selection-end="1433" vertical-scroll-proportion="0.0">
@@ -468,14 +510,18 @@
     <entry file="file://$PROJECT_DIR$/src/org/github/visualizer/Visualizer.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="62" column="101" selection-start="2297" selection-end="2297" vertical-scroll-proportion="0.0">
-          <folding />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/org/github/visualizer/SpiralModelPanel.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="30" column="0" selection-start="651" selection-end="651" vertical-scroll-proportion="0.0">
-          <folding />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -503,41 +549,15 @@
     <entry file="file://$PROJECT_DIR$/src/org/github/visualizer/Visualizer.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/org/github/visualizer/ImageWorker.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="23" column="28" selection-start="607" selection-end="607" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/org/github/visualizer/SpiralModelPanel.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="30" column="0" selection-start="651" selection-end="651" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/org/github/visualizer/Visualizer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="62" column="101" selection-start="2297" selection-end="2297" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/org/github/visualizer/ColorModel.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="45" selection-start="322" selection-end="322" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/org/github/visualizer/ImageWorker.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="32" column="77" selection-start="1048" selection-end="1048" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
@@ -549,10 +569,56 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/org/github/visualizer/ImageWorker.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="32" column="77" selection-start="1048" selection-end="1048" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/org/github/visualizer/SpiralModel.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="63" column="8" selection-start="1433" selection-end="1433" vertical-scroll-proportion="1.1872146">
+        <state line="30" column="5" selection-start="752" selection-end="752" vertical-scroll-proportion="0.0">
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/org/github/visualizer/ColorModel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="13" column="45" selection-start="322" selection-end="322" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/org/github/visualizer/Visualizer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="40" selection-start="114" selection-end="114" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/org/github/visualizer/Rotation.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="16" column="4" selection-start="350" selection-end="350" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/org/github/visualizer/Translation.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="21" column="4" selection-start="440" selection-end="440" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/org/github/visualizer/SpiralModelPanel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="85" column="0" selection-start="2760" selection-end="2760" vertical-scroll-proportion="0.7671233">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
